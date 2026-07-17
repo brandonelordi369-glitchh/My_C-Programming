@@ -30,8 +30,8 @@ int main()
     char s1[] = "far";
     char s2[] = "joke";
 
-    int a = strcmp("s1", "s2");
-    int b = strcmp("s2", "s1");
+    int a = strcmp(s1, s2);
+    int b = strcmp(s2, s1);
     int c = strcmp("Imdad", "Imdad"); // case-sensitive hae..
 
     printf("%d \n", a);
